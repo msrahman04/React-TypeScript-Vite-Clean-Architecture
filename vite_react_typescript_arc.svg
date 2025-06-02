@@ -1,0 +1,378 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="toolsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="appGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b91c1c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pipelineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c2410c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#0f172a"/>
+  
+  <!-- Title -->
+  <rect x="0" y="0" width="1400" height="60" fill="url(#headerGrad)"/>
+  <text x="700" y="35" text-anchor="middle" fill="white" font-size="26" font-weight="bold">General React + TypeScript + Vite Application Architecture</text>
+  
+  <!-- Development Tools & Configuration Layer -->
+  <rect x="20" y="80" width="320" height="420" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+  <rect x="20" y="80" width="320" height="40" fill="url(#toolsGrad)" rx="8 8 0 0"/>
+  <text x="180" y="105" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Development Tools & Config</text>
+  
+  <!-- Vite Core -->
+  <rect x="40" y="140" width="280" height="35" fill="#646cff" rx="6"/>
+  <text x="180" y="162" text-anchor="middle" fill="white" font-size="14" font-weight="bold">⚡ Vite (Build Tool & Dev Server)</text>
+  
+  <!-- Language & Quality -->
+  <text x="50" y="195" fill="#94a3b8" font-size="12" font-weight="bold">Language & Code Quality:</text>
+  <rect x="50" y="205" width="120" height="25" fill="#3178c6" rx="4"/>
+  <text x="110" y="222" text-anchor="middle" fill="white" font-size="10">TypeScript</text>
+  <rect x="190" y="205" width="120" height="25" fill="#4b32c3" rx="4"/>
+  <text x="250" y="222" text-anchor="middle" fill="white" font-size="10">ESLint + Prettier</text>
+  
+  <!-- Package Management -->
+  <text x="50" y="250" fill="#94a3b8" font-size="12" font-weight="bold">Package Management:</text>
+  <rect x="50" y="260" width="80" height="25" fill="#cb3837" rx="4"/>
+  <text x="90" y="277" text-anchor="middle" fill="white" font-size="10">npm</text>
+  <rect x="140" y="260" width="80" height="25" fill="#2188ff" rx="4"/>
+  <text x="180" y="277" text-anchor="middle" fill="white" font-size="10">yarn</text>
+  <rect x="230" y="260" width="80" height="25" fill="#f69220" rx="4"/>
+  <text x="270" y="277" text-anchor="middle" fill="white" font-size="10">pnpm</text>
+  
+  <!-- Configuration Files -->
+  <text x="50" y="305" fill="#94a3b8" font-size="12" font-weight="bold">Configuration Files:</text>
+  <text x="50" y="325" fill="#cbd5e1" font-size="10">📄 package.json - Dependencies & scripts</text>
+  <text x="50" y="340" fill="#cbd5e1" font-size="10">⚙️ vite.config.ts - Build configuration</text>
+  <text x="50" y="355" fill="#cbd5e1" font-size="10">🔧 tsconfig.json - TypeScript settings</text>
+  <text x="50" y="370" fill="#cbd5e1" font-size="10">✨ eslint.config.js - Code quality rules</text>
+  <text x="50" y="385" fill="#cbd5e1" font-size="10">🎨 tailwind.config.js - CSS framework</text>
+  <text x="50" y="400" fill="#cbd5e1" font-size="10">🌐 .env - Environment variables</text>
+  <text x="50" y="415" fill="#cbd5e1" font-size="10">🚫 .gitignore - Version control</text>
+  <text x="50" y="430" fill="#cbd5e1" font-size="10">📋 README.md - Documentation</text>
+  
+  <!-- Testing Tools -->
+  <text x="50" y="460" fill="#94a3b8" font-size="12" font-weight="bold">Testing Tools (Optional):</text>
+  <rect x="50" y="470" width="80" height="20" fill="#15803d" rx="3"/>
+  <text x="90" y="483" text-anchor="middle" fill="white" font-size="9">Vitest</text>
+  <rect x="140" y="470" width="80" height="20" fill="#e11d48" rx="3"/>
+  <text x="180" y="483" text-anchor="middle" fill="white" font-size="9">Jest</text>
+  <rect x="230" y="470" width="80" height="20" fill="#0ea5e9" rx="3"/>
+  <text x="270" y="483" text-anchor="middle" fill="white" font-size="9">Cypress</text>
+  
+  <!-- Application Architecture Layer -->
+  <rect x="360" y="80" width="480" height="600" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+  <rect x="360" y="80" width="480" height="40" fill="url(#appGrad)" rx="8 8 0 0"/>
+  <text x="600" y="105" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Application Architecture</text>
+  
+  <!-- Entry Points -->
+  <text x="380" y="145" fill="#94a3b8" font-size="14" font-weight="bold">🚪 Entry Points:</text>
+  <rect x="380" y="155" width="200" height="30" fill="#f59e0b" rx="4"/>
+  <text x="480" y="175" text-anchor="middle" fill="white" font-size="11">index.html (Root Document)</text>
+  <rect x="600" y="155" width="200" height="30" fill="#10b981" rx="4"/>
+  <text x="700" y="175" text-anchor="middle" fill="white" font-size="11">main.tsx (App Bootstrap)</text>
+  
+  <!-- Component Hierarchy -->
+  <text x="380" y="210" fill="#94a3b8" font-size="14" font-weight="bold">🧩 Component Hierarchy:</text>
+  
+  <!-- App Component -->
+  <rect x="380" y="225" width="420" height="35" fill="#dc2626" rx="6"/>
+  <text x="590" y="247" text-anchor="middle" fill="white" font-size="12" font-weight="bold">App.tsx (Root Component)</text>
+  
+  <!-- Layout Components -->
+  <rect x="400" y="270" width="120" height="25" fill="#0ea5e9" rx="4"/>
+  <text x="460" y="287" text-anchor="middle" fill="white" font-size="10">Header</text>
+  <rect x="540" y="270" width="120" height="25" fill="#0ea5e9" rx="4"/>
+  <text x="600" y="287" text-anchor="middle" fill="white" font-size="10">Navigation</text>
+  <rect x="680" y="270" width="120" height="25" fill="#0ea5e9" rx="4"/>
+  <text x="740" y="287" text-anchor="middle" fill="white" font-size="10">Footer</text>
+  
+  <!-- Page Components -->
+  <text x="400" y="315" fill="#cbd5e1" font-size="11" font-weight="bold">📄 Page Components:</text>
+  <rect x="400" y="325" width="90" height="20" fill="#8b5cf6" rx="3"/>
+  <text x="445" y="338" text-anchor="middle" fill="white" font-size="9">HomePage</text>
+  <rect x="500" y="325" width="90" height="20" fill="#8b5cf6" rx="3"/>
+  <text x="545" y="338" text-anchor="middle" fill="white" font-size="9">AboutPage</text>
+  <rect x="600" y="325" width="90" height="20" fill="#8b5cf6" rx="3"/>
+  <text x="645" y="338" text-anchor="middle" fill="white" font-size="9">ContactPage</text>
+  <rect x="700" y="325" width="90" height="20" fill="#8b5cf6" rx="3"/>
+  <text x="745" y="338" text-anchor="middle" fill="white" font-size="9">ProfilePage</text>
+  
+  <!-- Feature Components -->
+  <text x="400" y="365" fill="#cbd5e1" font-size="11" font-weight="bold">⚙️ Feature Components:</text>
+  <rect x="400" y="375" width="90" height="20" fill="#059669" rx="3"/>
+  <text x="445" y="388" text-anchor="middle" fill="white" font-size="9">UserAuth</text>
+  <rect x="500" y="375" width="90" height="20" fill="#059669" rx="3"/>
+  <text x="545" y="388" text-anchor="middle" fill="white" font-size="9">DataTable</text>
+  <rect x="600" y="375" width="90" height="20" fill="#059669" rx="3"/>
+  <text x="645" y="388" text-anchor="middle" fill="white" font-size="9">FormValidation</text>
+  <rect x="700" y="375" width="90" height="20" fill="#059669" rx="3"/>
+  <text x="745" y="388" text-anchor="middle" fill="white" font-size="9">Modal</text>
+  
+  <!-- UI Components -->
+  <text x="400" y="415" fill="#cbd5e1" font-size="11" font-weight="bold">🎨 UI Components:</text>
+  <rect x="400" y="425" width="70" height="18" fill="#6b7280" rx="3"/>
+  <text x="435" y="437" text-anchor="middle" fill="white" font-size="8">Button</text>
+  <rect x="480" y="425" width="70" height="18" fill="#6b7280" rx="3"/>
+  <text x="515" y="437" text-anchor="middle" fill="white" font-size="8">Input</text>
+  <rect x="560" y="425" width="70" height="18" fill="#6b7280" rx="3"/>
+  <text x="595" y="437" text-anchor="middle" fill="white" font-size="8">Card</text>
+  <rect x="640" y="425" width="70" height="18" fill="#6b7280" rx="3"/>
+  <text x="675" y="437" text-anchor="middle" fill="white" font-size="8">Loading</text>
+  <rect x="720" y="425" width="70" height="18" fill="#6b7280" rx="3"/>
+  <text x="755" y="437" text-anchor="middle" fill="white" font-size="8">Icon</text>
+  
+  <!-- Routing -->
+  <text x="380" y="470" fill="#94a3b8" font-size="14" font-weight="bold">🗺️ Routing & Navigation:</text>
+  <rect x="380" y="485" width="200" height="25" fill="#f97316" rx="4"/>
+  <text x="480" y="502" text-anchor="middle" fill="white" font-size="10">React Router / Wouter</text>
+  <rect x="600" y="485" width="200" height="25" fill="#f97316" rx="4"/>
+  <text x="700" y="502" text-anchor="middle" fill="white" font-size="10">Protected Routes</text>
+  
+  <!-- State Management -->
+  <text x="380" y="535" fill="#94a3b8" font-size="14" font-weight="bold">🔄 State Management:</text>
+  <rect x="380" y="550" width="100" height="23" fill="#61dafb" rx="4"/>
+  <text x="430" y="566" text-anchor="middle" fill="black" font-size="9">React State</text>
+  <rect x="490" y="550" width="100" height="23" fill="#764abc" rx="4"/>
+  <text x="540" y="566" text-anchor="middle" fill="white" font-size="9">Redux Toolkit</text>
+  <rect x="600" y="550" width="100" height="23" fill="#ff6b6b" rx="4"/>
+  <text x="650" y="566" text-anchor="middle" fill="white" font-size="9">Zustand</text>
+  <rect x="710" y="550" width="90" height="23" fill="#00d8ff" rx="4"/>
+  <text x="755" y="566" text-anchor="middle" fill="white" font-size="9">Context API</text>
+  
+  <!-- Styling -->
+  <text x="380" y="595" fill="#94a3b8" font-size="14" font-weight="bold">🎨 Styling Solutions:</text>
+  <rect x="380" y="610" width="90" height="20" fill="#38bdf8" rx="3"/>
+  <text x="425" y="623" text-anchor="middle" fill="white" font-size="9">Tailwind CSS</text>
+  <rect x="480" y="610" width="90" height="20" fill="#cc6699" rx="3"/>
+  <text x="525" y="623" text-anchor="middle" fill="white" font-size="9">CSS Modules</text>
+  <rect x="580" y="610" width="90" height="20" fill="#db7093" rx="3"/>
+  <text x="625" y="623" text-anchor="middle" fill="white" font-size="9">Styled Comp.</text>
+  <rect x="680" y="610" width="110" height="20" fill="#1976d2" rx="3"/>
+  <text x="735" y="623" text-anchor="middle" fill="white" font-size="9">Material-UI</text>
+  
+  <!-- Assets -->
+  <text x="380" y="650" fill="#94a3b8" font-size="14" font-weight="bold">📁 Assets & Resources:</text>
+  <text x="380" y="670" fill="#cbd5e1" font-size="10">🖼️ Images, icons, fonts (src/assets/)</text>
+  <text x="600" y="670" fill="#cbd5e1" font-size="10">🌐 Public files (public/)</text>
+  
+  <!-- Data Layer -->
+  <rect x="860" y="80" width="320" height="600" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+  <rect x="860" y="80" width="320" height="40" fill="url(#dataGrad)" rx="8 8 0 0"/>
+  <text x="1020" y="105" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Data & API Layer</text>
+  
+  <!-- HTTP Clients -->
+  <text x="880" y="145" fill="#94a3b8" font-size="14" font-weight="bold">🌐 HTTP Clients:</text>
+  <rect x="880" y="160" width="100" height="25" fill="#5a67d8" rx="4"/>
+  <text x="930" y="177" text-anchor="middle" fill="white" font-size="10">Axios</text>
+  <rect x="1000" y="160" width="100" height="25" fill="#48bb78" rx="4"/>
+  <text x="1050" y="177" text-anchor="middle" fill="white" font-size="10">Fetch API</text>
+  <rect x="1120" y="160" width="50" height="25" fill="#ed8936" rx="4"/>
+  <text x="1145" y="177" text-anchor="middle" fill="white" font-size="9">SWR</text>
+  
+  <!-- API Integration -->
+  <text x="880" y="210" fill="#94a3b8" font-size="14" font-weight="bold">🔗 API Integration:</text>
+  <rect x="880" y="225" width="280" height="25" fill="#2d3748" stroke="#4a5568" stroke-width="1" rx="4"/>
+  <text x="1020" y="242" text-anchor="middle" fill="#cbd5e1" font-size="10">RESTful APIs / GraphQL</text>
+  
+  <rect x="880" y="260" width="135" height="20" fill="#38a169" rx="3"/>
+  <text x="947" y="273" text-anchor="middle" fill="white" font-size="9">React Query</text>
+  <rect x="1025" y="260" width="135" height="20" fill="#3182ce" rx="3"/>
+  <text x="1092" y="273" text-anchor="middle" fill="white" font-size="9">Apollo Client</text>
+  
+  <!-- Data Flow -->
+  <text x="880" y="305" fill="#94a3b8" font-size="14" font-weight="bold">📊 Data Flow Patterns:</text>
+  <text x="880" y="325" fill="#cbd5e1" font-size="10">• Component → API Call → State Update</text>
+  <text x="880" y="340" fill="#cbd5e1" font-size="10">• Loading → Success/Error States</text>
+  <text x="880" y="355" fill="#cbd5e1" font-size="10">• Optimistic Updates</text>
+  <text x="880" y="370" fill="#cbd5e1" font-size="10">• Cache Management</text>
+  
+  <!-- Environment Management -->
+  <text x="880" y="400" fill="#94a3b8" font-size="14" font-weight="bold">🌍 Environment Management:</text>
+  <rect x="880" y="415" width="280" height="20" fill="#2d3748" stroke="#4a5568" stroke-width="1" rx="3"/>
+  <text x="1020" y="428" text-anchor="middle" fill="#cbd5e1" font-size="9">.env.development / .env.production</text>
+  
+  <text x="880" y="450" fill="#cbd5e1" font-size="10">• API_BASE_URL</text>
+  <text x="880" y="465" fill="#cbd5e1" font-size="10">• API_KEYS</text>
+  <text x="880" y="480" fill="#cbd5e1" font-size="10">• FEATURE_FLAGS</text>
+  
+  <!-- Error Handling -->
+  <text x="880" y="510" fill="#94a3b8" font-size="14" font-weight="bold">⚠️ Error Handling:</text>
+  <rect x="880" y="525" width="130" height="20" fill="#e53e3e" rx="3"/>
+  <text x="945" y="538" text-anchor="middle" fill="white" font-size="9">Error Boundaries</text>
+  <rect x="1020" y="525" width="140" height="20" fill="#d69e2e" rx="3"/>
+  <text x="1090" y="538" text-anchor="middle" fill="white" font-size="9">Global Error Handler</text>
+  
+  <!-- Authentication -->
+  <text x="880" y="565" fill="#94a3b8" font-size="14" font-weight="bold">🔐 Authentication:</text>
+  <rect x="880" y="580" width="90" height="18" fill="#319795" rx="3"/>
+  <text x="925" y="592" text-anchor="middle" fill="white" font-size="8">JWT Tokens</text>
+  <rect x="980" y="580" width="90" height="18" fill="#805ad5" rx="3"/>
+  <text x="1025" y="592" text-anchor="middle" fill="white" font-size="8">OAuth 2.0</text>
+  <rect x="1080" y="580" width="90" height="18" fill="#d53f8c" rx="3"/>
+  <text x="1125" y="592" text-anchor="middle" fill="white" font-size="8">Auth0/Firebase</text>
+  
+  <!-- Performance -->
+  <text x="880" y="620" fill="#94a3b8" font-size="14" font-weight="bold">⚡ Performance:</text>
+  <text x="880" y="640" fill="#cbd5e1" font-size="10">• Lazy Loading / Code Splitting</text>
+  <text x="880" y="655" fill="#cbd5e1" font-size="10">• Memoization (React.memo, useMemo)</text>
+  <text x="880" y="670" fill="#cbd5e1" font-size="10">• Virtual Scrolling</text>
+  
+  <!-- Build Pipeline -->
+  <rect x="20" y="520" width="1160" height="160" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+  <rect x="20" y="520" width="1160" height="40" fill="url(#pipelineGrad)" rx="8 8 0 0"/>
+  <text x="600" y="545" text-anchor="middle" fill="white" font-size="16" font-weight="bold">🏗️ Build Pipeline & Deployment</text>
+  
+  <!-- Development Pipeline -->
+  <text x="40" y="580" fill="#10b981" font-size="14" font-weight="bold">Development (npm run dev):</text>
+  <rect x="40" y="595" width="130" height="20" fill="#1f2937" stroke="#10b981" stroke-width="1" rx="3"/>
+  <text x="105" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Vite Dev Server</text>
+  <rect x="180" y="595" width="100" height="20" fill="#1f2937" stroke="#10b981" stroke-width="1" rx="3"/>
+  <text x="230" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Hot Reload</text>
+  <rect x="290" y="595" width="100" height="20" fill="#1f2937" stroke="#10b981" stroke-width="1" rx="3"/>
+  <text x="340" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Source Maps</text>
+  
+  <!-- Production Pipeline -->
+  <text x="420" y="580" fill="#f59e0b" font-size="14" font-weight="bold">Production (npm run build):</text>
+  <rect x="420" y="595" width="90" height="20" fill="#1f2937" stroke="#f59e0b" stroke-width="1" rx="3"/>
+  <text x="465" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Type Check</text>
+  <rect x="520" y="595" width="90" height="20" fill="#1f2937" stroke="#f59e0b" stroke-width="1" rx="3"/>
+  <text x="565" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Tree Shaking</text>
+  <rect x="620" y="595" width="90" height="20" fill="#1f2937" stroke="#f59e0b" stroke-width="1" rx="3"/>
+  <text x="665" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Minification</text>
+  <rect x="720" y="595" width="90" height="20" fill="#1f2937" stroke="#f59e0b" stroke-width="1" rx="3"/>
+  <text x="765" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Asset Optimization</text>
+  
+  <!-- Deployment -->
+  <text x="840" y="580" fill="#dc2626" font-size="14" font-weight="bold">Deployment:</text>
+  <rect x="840" y="595" width="80" height="20" fill="#1f2937" stroke="#dc2626" stroke-width="1" rx="3"/>
+  <text x="880" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Vercel</text>
+  <rect x="930" y="595" width="80" height="20" fill="#1f2937" stroke="#dc2626" stroke-width="1" rx="3"/>
+  <text x="970" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">Netlify</text>
+  <rect x="1020" y="595" width="80" height="20" fill="#1f2937" stroke="#dc2626" stroke-width="1" rx="3"/>
+  <text x="1060" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">GitHub Pages</text>
+  <rect x="1110" y="595" width="60" height="20" fill="#1f2937" stroke="#dc2626" stroke-width="1" rx="3"/>
+  <text x="1140" y="608" text-anchor="middle" fill="#cbd5e1" font-size="9">AWS S3</text>
+  
+  <!-- CI/CD Pipeline -->
+  <text x="40" y="640" fill="#8b5cf6" font-size="14" font-weight="bold">CI/CD Pipeline:</text>
+  <rect x="40" y="655" width="100" height="18" fill="#1f2937" stroke="#8b5cf6" stroke-width="1" rx="3"/>
+  <text x="90" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">GitHub Actions</text>
+  <rect x="150" y="655" width="80" height="18" fill="#1f2937" stroke="#8b5cf6" stroke-width="1" rx="3"/>
+  <text x="190" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">GitLab CI</text>
+  <rect x="240" y="655" width="80" height="18" fill="#1f2937" stroke="#8b5cf6" stroke-width="1" rx="3"/>
+  <text x="280" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">Jenkins</text>
+  <rect x="330" y="655" width="80" height="18" fill="#1f2937" stroke="#8b5cf6" stroke-width="1" rx="3"/>
+  <text x="370" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">CircleCI</text>
+  
+  <!-- Monitoring -->
+  <text x="440" y="640" fill="#06b6d4" font-size="14" font-weight="bold">Monitoring & Analytics:</text>
+  <rect x="440" y="655" width="80" height="18" fill="#1f2937" stroke="#06b6d4" stroke-width="1" rx="3"/>
+  <text x="480" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">Sentry</text>
+  <rect x="530" y="655" width="100" height="18" fill="#1f2937" stroke="#06b6d4" stroke-width="1" rx="3"/>
+  <text x="580" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">Google Analytics</text>
+  <rect x="640" y="655" width="80" height="18" fill="#1f2937" stroke="#06b6d4" stroke-width="1" rx="3"/>
+  <text x="680" y="667" text-anchor="middle" fill="#cbd5e1" font-size="8">LogRocket</text>
+  
+  <!-- File Structure -->
+  <rect x="20" y="700" width="560" height="280" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+  <rect x="20" y="700" width="560" height="40" fill="url(#headerGrad)" rx="8 8 0 0"/>
+  <text x="300" y="725" text-anchor="middle" fill="white" font-size="16" font-weight="bold">📁 Typical Project Structure</text>
+  
+  <!-- File Tree -->
+  <text x="40" y="755" fill="#10b981" font-size="11" font-family="monospace">my-react-app/</text>
+  <text x="60" y="770" fill="#cbd5e1" font-size="10" font-family="monospace">├── public/</text>
+  <text x="80" y="785" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── index.html</text>
+  <text x="80" y="800" fill="#cbd5e1" font-size="10" font-family="monospace">│   └── favicon.ico</text>
+  <text x="60" y="815" fill="#cbd5e1" font-size="10" font-family="monospace">├── src/</text>
+  <text x="80" y="830" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── components/</text>
+  <text x="100" y="845" fill="#cbd5e1" font-size="10" font-family="monospace">│   │   ├── ui/</text>
+  <text x="100" y="860" fill="#cbd5e1" font-size="10" font-family="monospace">│   │   └── layout/</text>
+  <text x="80" y="875" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── pages/</text>
+  <text x="80" y="890" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── hooks/</text>
+  <text x="80" y="905" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── utils/</text>
+  <text x="80" y="920" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── types/</text>
+  <text x="80" y="935" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── assets/</text>
+  <text x="80" y="950" fill="#cbd5e1" font-size="10" font-family="monospace">│   ├── App.tsx</text>
+  <text x="80" y="965" fill="#cbd5e1" font-size="10" font-family="monospace">│   └── main.tsx</text>
+  
+  <text x="300" y="770" fill="#cbd5e1" font-size="10" font-family="monospace">├── package.json</text>
+  <text x="300" y="785" fill="#cbd5e1" font-size="10" font-family="monospace">├── vite.config.ts</text>
+  <text x="300" y="800" fill="#cbd5e1" font-size="10" font-family="monospace">├── tsconfig.json</text>
+  <text x="300" y="815" fill="#cbd5e1" font-size="10" font-family="monospace">├── eslint.config.js</text>
+  <text x="300" y="830" fill="#cbd5e1" font-size="10" font-family="monospace">├── tailwind.config.js</text>
+  <text x="300" y="845" fill="#cbd5e1" font-size="10" font-family="monospace">├── .env</text>
+  <text x="300" y="860" fill="#cbd5e1" font-size="10" font-family="monospace">├── .gitignore</text>
+  <text x="300" y="875" fill="#cbd5e1" font-size="10" font-family="monospace">└── README.md</text>
+  
+  <!-- Best Practices -->
+  <rect x="600" y="700" width="580" height="280" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+  <rect x="600" y="700" width="580" height="40" fill="url(#appGrad)" rx="8 8 0 0"/>
+  <text x="890" y="725" text-anchor="middle" fill="white" font-size="16" font-weight="bold">✨ Best Practices & Patterns</text>
+  
+  <!-- Component Patterns -->
+  <text x="620" y="755" fill="#10b981" font-size="12" font-weight="bold">🧩 Component Patterns:</text>
+  <text x="620" y="770" fill="#cbd5e1" font-size="10">• Single Responsibility Principle</text>
+  <text x="620" y="785" fill="#cbd5e1" font-size="10">• Composition over Inheritance</text>
+  <text x="620" y="800" fill="#cbd5e1" font-size="10">• Custom Hooks for Logic Reuse</text>
+  <text x="620" y="815" fill="#cbd5e1" font-size="10">• Prop Types / TypeScript Interfaces</text>
+  
+  <!-- Code Quality -->
+  <text x="620" y="840" fill="#f59e0b" font-size="12" font-weight="bold">✅ Code Quality:</text>
+  <text x="620" y="855" fill="#cbd5e1" font-size="10">• ESLint + Prettier Configuration</text>
+  <text x="620" y="870" fill="#cbd5e1" font-size="10">• Pre-commit Hooks (Husky)</text>
+  <text x="620" y="885" fill="#cbd5e1" font-size="10">• TypeScript Strict Mode</text>
+  <text x="620" y="900" fill="#cbd5e1" font-size="10">• Unit & Integration Testing</text>
+  
+  <!-- Performance -->
+  <text x="620" y="925" fill="#dc2626" font-size="12" font-weight="bold">⚡ Performance:</text>
+  <text x="620" y="940" fill="#cbd5e1" font-size="10">• Code Splitting & Lazy Loading</text>
+  <text x="620" y="955" fill="#cbd5e1" font-size="10">• Bundle Size Monitoring</text>
+  <text x="620" y="970" fill="#cbd5e1" font-size="10">• Image Optimization</text>
+  
+  <!-- Security -->
+  <text x="900" y="755" fill="#8b5cf6" font-size="12" font-weight="bold">🔒 Security:</text>
+  <text x="900" y="770" fill="#cbd5e1" font-size="10">• Environment Variables</text>
+  <text x="900" y="785" fill="#cbd5e1" font-size="10">• HTTPS Only</text>
+  <text x="900" y="800" fill="#cbd5e1" font-size="10">• Content Security Policy</text>
+  <text x="900" y="815" fill="#cbd5e1" font-size="10">• Input Sanitization</text>
+  
+  <!-- SEO & Accessibility -->
+  <text x="900" y="840" fill="#06b6d4" font-size="12" font-weight="bold">🌐 SEO & Accessibility:</text>
+  <text x="900" y="855" fill="#cbd5e1" font-size="10">• Semantic HTML</text>
+  <text x="900" y="870" fill="#cbd5e1" font-size="10">• ARIA Labels</text>
+  <text x="900" y="885" fill="#cbd5e1" font-size="10">• Meta Tags</text>
+  <text x="900" y="900" fill="#cbd5e1" font-size="10">• Lighthouse Optimization</text>
+  
+  <!-- Scaling -->
+  <text x="900" y="925" fill="#059669" font-size="12" font-weight="bold">📈 Scaling:</text>
+  <text x="900" y="940" fill="#cbd5e1" font-size="10">• Micro-frontends</text>
+  <text x="900" y="955" fill="#cbd5e1" font-size="10">• Module Federation</text>
+  <text x="900" y="970" fill="#cbd5e1" font-size="10">• Design System</text>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- Arrows showing relationships -->
+  <line x1="340" y1="350" x2="380" y2="350" stroke="#10b981" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="840" y1="350" x2="880" y2="350" stroke="#10b981" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="600" y1="480" x2="600" y2="520" stroke="#10b981" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
