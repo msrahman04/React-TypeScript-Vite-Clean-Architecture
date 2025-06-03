@@ -1,0 +1,264 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="reactGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#61dafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#21d4fd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flutterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#02569b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0175c2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="androidGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3ddc84;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2fb86a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#0f172a"/>
+  
+  <!-- Title -->
+  <rect x="0" y="0" width="1400" height="60" fill="url(#headerGrad)"/>
+  <text x="700" y="40" text-anchor="middle" fill="white" font-size="24" font-weight="bold">Framework Comparison: React vs Flutter vs Android SDK</text>
+  
+  <!-- React Stack -->
+  <rect x="40" y="80" width="420" height="350" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="40" y="80" width="420" height="50" fill="url(#reactGrad)" rx="10 10 0 0"/>
+  <text x="250" y="115" text-anchor="middle" fill="#000" font-size="18" font-weight="bold">React + TypeScript + Vite Stack</text>
+  
+  <!-- React Components -->
+  <text x="60" y="155" fill="#61dafb" font-size="16" font-weight="bold">REACT (Primary Framework)</text>
+  <rect x="60" y="165" width="380" height="80" fill="#2d3748" stroke="#61dafb" stroke-width="2" rx="6"/>
+  <text x="80" y="185" fill="#e2e8f0" font-size="12" font-weight="bold">UI Framework Features:</text>
+  <text x="80" y="200" fill="#cbd5e1" font-size="10">• Component-based architecture</text>
+  <text x="80" y="213" fill="#cbd5e1" font-size="10">• Virtual DOM and reconciliation</text>
+  <text x="80" y="226" fill="#cbd5e1" font-size="10">• State management and hooks</text>
+  <text x="80" y="239" fill="#cbd5e1" font-size="10">• JSX syntax and component lifecycle</text>
+  
+  <text x="60" y="270" fill="#3178c6" font-size="14" font-weight="bold">TypeScript (Language)</text>
+  <rect x="60" y="280" width="180" height="60" fill="#2d3748" stroke="#3178c6" stroke-width="1" rx="4"/>
+  <text x="70" y="300" fill="#cbd5e1" font-size="10">• Static type checking</text>
+  <text x="70" y="313" fill="#cbd5e1" font-size="10">• Enhanced IDE support</text>
+  <text x="70" y="326" fill="#cbd5e1" font-size="10">• Compile-time errors</text>
+  
+  <text x="260" y="270" fill="#646cff" font-size="14" font-weight="bold">Vite (Build Tool)</text>
+  <rect x="260" y="280" width="180" height="60" fill="#2d3748" stroke="#646cff" stroke-width="1" rx="4"/>
+  <text x="270" y="300" fill="#cbd5e1" font-size="10">• Fast development server</text>
+  <text x="270" y="313" fill="#cbd5e1" font-size="10">• Hot module replacement</text>
+  <text x="270" y="326" fill="#cbd5e1" font-size="10">• Optimized bundling</text>
+  
+  <text x="60" y="365" fill="#e2e8f0" font-size="12" font-weight="bold">Target Platform:</text>
+  <rect x="60" y="375" width="100" height="25" fill="#f59e0b" rx="4"/>
+  <text x="110" y="392" text-anchor="middle" fill="white" font-size="10">Web Browsers</text>
+  
+  <rect x="170" y="375" width="120" height="25" fill="#10b981" rx="4"/>
+  <text x="230" y="392" text-anchor="middle" fill="white" font-size="10">+ React Native</text>
+  
+  <rect x="300" y="375" width="100" height="25" fill="#8b5cf6" rx="4"/>
+  <text x="350" y="392" text-anchor="middle" fill="white" font-size="10">+ Electron</text>
+  
+  <!-- Flutter Stack -->
+  <rect x="480" y="80" width="420" height="350" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="480" y="80" width="420" height="50" fill="url(#flutterGrad)" rx="10 10 0 0"/>
+  <text x="690" y="115" text-anchor="middle" fill="white" font-size="18" font-weight="bold">Flutter Framework</text>
+  
+  <!-- Flutter Components -->
+  <text x="500" y="155" fill="#02569b" font-size="16" font-weight="bold">FLUTTER (Complete Framework)</text>
+  <rect x="500" y="165" width="380" height="120" fill="#2d3748" stroke="#02569b" stroke-width="2" rx="6"/>
+  <text x="520" y="185" fill="#e2e8f0" font-size="12" font-weight="bold">All-in-One Framework:</text>
+  <text x="520" y="200" fill="#cbd5e1" font-size="10">• Widget-based UI system</text>
+  <text x="520" y="213" fill="#cbd5e1" font-size="10">• Built-in rendering engine (Skia)</text>
+  <text x="520" y="226" fill="#cbd5e1" font-size="10">• Dart language integration</text>
+  <text x="520" y="239" fill="#cbd5e1" font-size="10">• Hot reload development</text>
+  <text x="520" y="252" fill="#cbd5e1" font-size="10">• Cross-platform compilation</text>
+  <text x="520" y="265" fill="#cbd5e1" font-size="10">• Built-in testing framework</text>
+  <text x="520" y="278" fill="#cbd5e1" font-size="10">• Package management (pub)</text>
+  
+  <text x="500" y="305" fill="#00d2aa" font-size="14" font-weight="bold">Dart Language</text>
+  <rect x="500" y="315" width="180" height="40" fill="#2d3748" stroke="#00d2aa" stroke-width="1" rx="4"/>
+  <text x="510" y="335" fill="#cbd5e1" font-size="10">• AOT and JIT compilation</text>
+  <text x="510" y="348" fill="#cbd5e1" font-size="10">• Garbage collection</text>
+  
+  <text x="700" y="305" fill="#42a5f5" font-size="14" font-weight="bold">Flutter CLI</text>
+  <rect x="700" y="315" width="180" height="40" fill="#2d3748" stroke="#42a5f5" stroke-width="1" rx="4"/>
+  <text x="710" y="335" fill="#cbd5e1" font-size="10">• Project creation and build</text>
+  <text x="710" y="348" fill="#cbd5e1" font-size="10">• Device deployment</text>
+  
+  <text x="500" y="375" fill="#e2e8f0" font-size="12" font-weight="bold">Target Platforms:</text>
+  <rect x="500" y="385" width="70" height="20" fill="#f59e0b" rx="3"/>
+  <text x="535" y="398" text-anchor="middle" fill="white" font-size="8">iOS</text>
+  
+  <rect x="580" y="385" width="70" height="20" fill="#10b981" rx="3"/>
+  <text x="615" y="398" text-anchor="middle" fill="white" font-size="8">Android</text>
+  
+  <rect x="660" y="385" width="70" height="20" fill="#8b5cf6" rx="3"/>
+  <text x="695" y="398" text-anchor="middle" fill="white" font-size="8">Web</text>
+  
+  <rect x="740" y="385" width="70" height="20" fill="#ec4899" rx="3"/>
+  <text x="775" y="398" text-anchor="middle" fill="white" font-size="8">Desktop</text>
+  
+  <rect x="820" y="385" width="70" height="20" fill="#06b6d4" rx="3"/>
+  <text x="855" y="398" text-anchor="middle" fill="white" font-size="8">Embedded</text>
+  
+  <!-- Android SDK Stack -->
+  <rect x="920" y="80" width="420" height="350" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="920" y="80" width="420" height="50" fill="url(#androidGrad)" rx="10 10 0 0"/>
+  <text x="1130" y="115" text-anchor="middle" fill="#000" font-size="18" font-weight="bold">Android SDK Framework</text>
+  
+  <!-- Android Components -->
+  <text x="940" y="155" fill="#3ddc84" font-size="16" font-weight="bold">ANDROID SDK (Platform Framework)</text>
+  <rect x="940" y="165" width="380" height="100" fill="#2d3748" stroke="#3ddc84" stroke-width="2" rx="6"/>
+  <text x="960" y="185" fill="#e2e8f0" font-size="12" font-weight="bold">Android Framework:</text>
+  <text x="960" y="200" fill="#cbd5e1" font-size="10">• Activity and Fragment lifecycle</text>
+  <text x="960" y="213" fill="#cbd5e1" font-size="10">• Native Android APIs</text>
+  <text x="960" y="226" fill="#cbd5e1" font-size="10">• Material Design components</text>
+  <text x="960" y="239" fill="#cbd5e1" font-size="10">• Android Runtime (ART)</text>
+  <text x="960" y="252" fill="#cbd5e1" font-size="10">• Integration with Android OS</text>
+  
+  <text x="940" y="285" fill="#f97316" font-size="14" font-weight="bold">Languages</text>
+  <rect x="940" y="295" width="90" height="35" fill="#2d3748" stroke="#f97316" stroke-width="1" rx="4"/>
+  <text x="950" y="315" fill="#cbd5e1" font-size="10">Java</text>
+  <text x="950" y="325" fill="#cbd5e1" font-size="10">Kotlin</text>
+  
+  <text x="1050" y="285" fill="#2563eb" font-size="14" font-weight="bold">Build Tools</text>
+  <rect x="1050" y="295" width="90" height="35" fill="#2d3748" stroke="#2563eb" stroke-width="1" rx="4"/>
+  <text x="1060" y="315" fill="#cbd5e1" font-size="10">Gradle</text>
+  <text x="1060" y="325" fill="#cbd5e1" font-size="10">Android Studio</text>
+  
+  <text x="1160" y="285" fill="#dc2626" font-size="14" font-weight="bold">Testing</text>
+  <rect x="1160" y="295" width="90" height="35" fill="#2d3748" stroke="#dc2626" stroke-width="1" rx="4"/>
+  <text x="1170" y="315" fill="#cbd5e1" font-size="10">Espresso</text>
+  <text x="1170" y="325" fill="#cbd5e1" font-size="10">JUnit</text>
+  
+  <text x="940" y="355" fill="#e2e8f0" font-size="12" font-weight="bold">Target Platform:</text>
+  <rect x="940" y="365" width="120" height="25" fill="#10b981" rx="4"/>
+  <text x="1000" y="382" text-anchor="middle" fill="white" font-size="10">Android Only</text>
+  
+  <rect x="1070" y="365" width="120" height="25" fill="#6b7280" rx="4"/>
+  <text x="1130" y="382" text-anchor="middle" fill="white" font-size="10">Android TV/Wear</text>
+  
+  <!-- Comparison Table -->
+  <rect x="40" y="450" width="1300" height="420" fill="#1e293b" stroke="#374151" stroke-width="2" rx="8"/>
+  <text x="690" y="485" text-anchor="middle" fill="#f3f4f6" font-size="20" font-weight="bold">Framework Comparison Table</text>
+  
+  <!-- Table Headers -->
+  <rect x="60" y="500" width="200" height="40" fill="#374151" rx="4"/>
+  <text x="160" y="525" text-anchor="middle" fill="#f9fafb" font-size="14" font-weight="bold">Aspect</text>
+  
+  <rect x="270" y="500" width="300" height="40" fill="#1e40af" rx="4"/>
+  <text x="420" y="525" text-anchor="middle" fill="white" font-size="14" font-weight="bold">React + TypeScript + Vite</text>
+  
+  <rect x="580" y="500" width="300" height="40" fill="#1e3a8a" rx="4"/>
+  <text x="730" y="525" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Flutter</text>
+  
+  <rect x="890" y="500" width="300" height="40" fill="#166534" rx="4"/>
+  <text x="1040" y="525" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Android SDK</text>
+  
+  <!-- Framework Row -->
+  <rect x="60" y="550" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="572" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Framework Type</text>
+  
+  <rect x="270" y="550" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="572" text-anchor="middle" fill="#e5e7eb" font-size="11">UI Library + Ecosystem</text>
+  
+  <rect x="580" y="550" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="572" text-anchor="middle" fill="#e5e7eb" font-size="11">Complete Cross-Platform</text>
+  
+  <rect x="890" y="550" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="572" text-anchor="middle" fill="#e5e7eb" font-size="11">Platform-Specific</text>
+  
+  <!-- Language Row -->
+  <rect x="60" y="590" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="612" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Primary Language</text>
+  
+  <rect x="270" y="590" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="612" text-anchor="middle" fill="#e5e7eb" font-size="11">TypeScript/JavaScript</text>
+  
+  <rect x="580" y="590" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="612" text-anchor="middle" fill="#e5e7eb" font-size="11">Dart</text>
+  
+  <rect x="890" y="590" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="612" text-anchor="middle" fill="#e5e7eb" font-size="11">Java/Kotlin</text>
+  
+  <!-- Learning Curve -->
+  <rect x="60" y="630" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="652" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Learning Curve</text>
+  
+  <rect x="270" y="630" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="652" text-anchor="middle" fill="#fbbf24" font-size="11">Moderate (Web Background)</text>
+  
+  <rect x="580" y="630" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="652" text-anchor="middle" fill="#10b981" font-size="11">Easy (All-in-One)</text>
+  
+  <rect x="890" y="630" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="652" text-anchor="middle" fill="#ef4444" font-size="11">Steep (Android Specific)</text>
+  
+  <!-- Performance -->
+  <rect x="60" y="670" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="692" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Performance</text>
+  
+  <rect x="270" y="670" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="692" text-anchor="middle" fill="#fbbf24" font-size="11">Good (Web optimized)</text>
+  
+  <rect x="580" y="670" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="692" text-anchor="middle" fill="#10b981" font-size="11">Excellent (Near Native)</text>
+  
+  <rect x="890" y="670" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="692" text-anchor="middle" fill="#10b981" font-size="11">Excellent (Native)</text>
+  
+  <!-- Platform Support -->
+  <rect x="60" y="710" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="732" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Platform Support</text>
+  
+  <rect x="270" y="710" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="732" text-anchor="middle" fill="#10b981" font-size="11">Web + Mobile (RN)</text>
+  
+  <rect x="580" y="710" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="732" text-anchor="middle" fill="#10b981" font-size="11">All Platforms</text>
+  
+  <rect x="890" y="710" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="732" text-anchor="middle" fill="#ef4444" font-size="11">Android Only</text>
+  
+  <!-- Development Speed -->
+  <rect x="60" y="750" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="772" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Development Speed</text>
+  
+  <rect x="270" y="750" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="772" text-anchor="middle" fill="#10b981" font-size="11">Fast (Ecosystem)</text>
+  
+  <rect x="580" y="750" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="772" text-anchor="middle" fill="#10b981" font-size="11">Very Fast (Hot Reload)</text>
+  
+  <rect x="890" y="750" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="772" text-anchor="middle" fill="#fbbf24" font-size="11">Moderate</text>
+  
+  <!-- Community -->
+  <rect x="60" y="790" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="812" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Community Size</text>
+  
+  <rect x="270" y="790" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="812" text-anchor="middle" fill="#10b981" font-size="11">Huge (Web Ecosystem)</text>
+  
+  <rect x="580" y="790" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="812" text-anchor="middle" fill="#10b981" font-size="11">Growing Fast</text>
+  
+  <rect x="890" y="790" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="812" text-anchor="middle" fill="#10b981" font-size="11">Large (Android)</text>
+  
+  <!-- Best For -->
+  <rect x="60" y="830" width="200" height="35" fill="#4b5563" rx="3"/>
+  <text x="160" y="852" text-anchor="middle" fill="#f9fafb" font-size="12" font-weight="bold">Best For</text>
+  
+  <rect x="270" y="830" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="420" y="852" text-anchor="middle" fill="#e5e7eb" font-size="10">Web Apps, PWAs</text>
+  
+  <rect x="580" y="830" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="730" y="852" text-anchor="middle" fill="#e5e7eb" font-size="10">Cross-Platform Mobile</text>
+  
+  <rect x="890" y="830" width="300" height="35" fill="#1f2937" rx="3"/>
+  <text x="1040" y="852" text-anchor="middle" fill="#e5e7eb" font-size="10">Android Native Apps</text>
+</svg>
