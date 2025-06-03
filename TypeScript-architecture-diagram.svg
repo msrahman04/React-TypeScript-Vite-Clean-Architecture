@@ -1,0 +1,443 @@
+<svg viewBox="0 0 1600 1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3178c6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5aa0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="devGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="typeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="compileGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="runtimeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="toolsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="1400" fill="#0f172a"/>
+  
+  <!-- Title -->
+  <rect x="0" y="0" width="1600" height="70" fill="url(#headerGrad)"/>
+  <text x="800" y="45" text-anchor="middle" fill="white" font-size="28" font-weight="bold">TypeScript Full Architecture</text>
+  
+  <!-- Development Layer -->
+  <rect x="20" y="90" width="520" height="350" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="20" y="90" width="520" height="50" fill="url(#devGrad)" rx="10 10 0 0"/>
+  <text x="280" y="125" text-anchor="middle" fill="white" font-size="20" font-weight="bold">Development Environment</text>
+  
+  <!-- TypeScript Source Code -->
+  <text x="40" y="165" fill="#0ea5e9" font-size="16" font-weight="bold">TypeScript Source Code</text>
+  <rect x="40" y="175" width="480" height="100" fill="#2d3748" stroke="#0ea5e9" stroke-width="2" rx="6"/>
+  <text x="50" y="195" fill="#e2e8f0" font-size="12" font-family="monospace">interface User {</text>
+  <text x="50" y="210" fill="#e2e8f0" font-size="12" font-family="monospace">  id: number;</text>
+  <text x="50" y="225" fill="#e2e8f0" font-size="12" font-family="monospace">  name: string;</text>
+  <text x="50" y="240" fill="#e2e8f0" font-size="12" font-family="monospace">  email?: string;</text>
+  <text x="50" y="255" fill="#e2e8f0" font-size="12" font-family="monospace">}</text>
+  <text x="50" y="270" fill="#e2e8f0" font-size="12" font-family="monospace">const user: User = { id: 1, name: "John" };</text>
+  
+  <!-- Development Tools -->
+  <text x="40" y="305" fill="#e2e8f0" font-size="14" font-weight="bold">Development Tools:</text>
+  <rect x="40" y="315" width="100" height="25" fill="#007acc" rx="4"/>
+  <text x="90" y="332" text-anchor="middle" fill="white" font-size="10">VS Code</text>
+  
+  <rect x="150" y="315" width="100" height="25" fill="#000" rx="4"/>
+  <text x="200" y="332" text-anchor="middle" fill="white" font-size="10">WebStorm</text>
+  
+  <rect x="260" y="315" width="100" height="25" fill="#3178c6" rx="4"/>
+  <text x="310" y="332" text-anchor="middle" fill="white" font-size="10">TS Language Server</text>
+  
+  <rect x="370" y="315" width="100" height="25" fill="#4b5563" rx="4"/>
+  <text x="420" y="332" text-anchor="middle" fill="white" font-size="10">Prettier</text>
+  
+  <!-- File Types -->
+  <text x="40" y="365" fill="#e2e8f0" font-size="14" font-weight="bold">File Extensions:</text>
+  <rect x="40" y="375" width="80" height="20" fill="#3178c6" rx="3"/>
+  <text x="80" y="388" text-anchor="middle" fill="white" font-size="9">.ts</text>
+  
+  <rect x="130" y="375" width="80" height="20" fill="#61dafb" rx="3"/>
+  <text x="170" y="388" text-anchor="middle" fill="black" font-size="9">.tsx</text>
+  
+  <rect x="220" y="375" width="80" height="20" fill="#f7df1e" rx="3"/>
+  <text x="260" y="388" text-anchor="middle" fill="black" font-size="9">.d.ts</text>
+  
+  <rect x="310" y="375" width="100" height="20" fill="#6b7280" rx="3"/>
+  <text x="360" y="388" text-anchor="middle" fill="white" font-size="9">tsconfig.json</text>
+  
+  <!-- Configuration -->
+  <text x="40" y="415" fill="#e2e8f0" font-size="12" font-weight="bold">Configuration Files:</text>
+  <text x="40" y="430" fill="#cbd5e1" font-size="10">• tsconfig.json - Compiler options and project settings</text>
+  
+  <!-- Type System -->
+  <rect x="560" y="90" width="520" height="350" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="560" y="90" width="520" height="50" fill="url(#typeGrad)" rx="10 10 0 0"/>
+  <text x="820" y="125" text-anchor="middle" fill="white" font-size="20" font-weight="bold">TypeScript Type System</text>
+  
+  <!-- Basic Types -->
+  <text x="580" y="165" fill="#8b5cf6" font-size="14" font-weight="bold">Basic Types:</text>
+  <rect x="580" y="175" width="60" height="20" fill="#4338ca" rx="3"/>
+  <text x="610" y="188" text-anchor="middle" fill="white" font-size="8">string</text>
+  
+  <rect x="650" y="175" width="60" height="20" fill="#4338ca" rx="3"/>
+  <text x="680" y="188" text-anchor="middle" fill="white" font-size="8">number</text>
+  
+  <rect x="720" y="175" width="60" height="20" fill="#4338ca" rx="3"/>
+  <text x="750" y="188" text-anchor="middle" fill="white" font-size="8">boolean</text>
+  
+  <rect x="790" y="175" width="60" height="20" fill="#4338ca" rx="3"/>
+  <text x="820" y="188" text-anchor="middle" fill="white" font-size="8">object</text>
+  
+  <rect x="860" y="175" width="60" height="20" fill="#4338ca" rx="3"/>
+  <text x="890" y="188" text-anchor="middle" fill="white" font-size="8">array</text>
+  
+  <rect x="930" y="175" width="60" height="20" fill="#6366f1" rx="3"/>
+  <text x="960" y="188" text-anchor="middle" fill="white" font-size="8">any</text>
+  
+  <rect x="1000" y="175" width="60" height="20" fill="#6366f1" rx="3"/>
+  <text x="1030" y="188" text-anchor="middle" fill="white" font-size="8">unknown</text>
+  
+  <!-- Advanced Types -->
+  <text x="580" y="215" fill="#8b5cf6" font-size="14" font-weight="bold">Advanced Types:</text>
+  <rect x="580" y="225" width="90" height="20" fill="#7c3aed" rx="3"/>
+  <text x="625" y="238" text-anchor="middle" fill="white" font-size="8">Union Types</text>
+  
+  <rect x="680" y="225" width="100" height="20" fill="#7c3aed" rx="3"/>
+  <text x="730" y="238" text-anchor="middle" fill="white" font-size="8">Intersection</text>
+  
+  <rect x="790" y="225" width="80" height="20" fill="#7c3aed" rx="3"/>
+  <text x="830" y="238" text-anchor="middle" fill="white" font-size="8">Generics</text>
+  
+  <rect x="880" y="225" width="80" height="20" fill="#7c3aed" rx="3"/>
+  <text x="920" y="238" text-anchor="middle" fill="white" font-size="8">Conditionals</text>
+  
+  <rect x="970" y="225" width="90" height="20" fill="#7c3aed" rx="3"/>
+  <text x="1015" y="238" text-anchor="middle" fill="white" font-size="8">Mapped Types</text>
+  
+  <!-- Type Features -->
+  <text x="580" y="265" fill="#8b5cf6" font-size="14" font-weight="bold">Type Features:</text>
+  
+  <!-- Interfaces -->
+  <rect x="580" y="280" width="240" height="35" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="590" y="300" fill="#e2e8f0" font-size="11" font-weight="bold">Interfaces and Type Aliases</text>
+  
+  <!-- Classes -->
+  <rect x="830" y="280" width="240" height="35" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="840" y="300" fill="#e2e8f0" font-size="11" font-weight="bold">Classes with Type Annotations</text>
+  
+  <!-- Enums -->
+  <rect x="580" y="325" width="160" height="30" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="660" y="345" text-anchor="middle" fill="#e2e8f0" font-size="10">Enums</text>
+  
+  <!-- Modules -->
+  <rect x="750" y="325" width="160" height="30" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="830" y="345" text-anchor="middle" fill="#e2e8f0" font-size="10">Modules</text>
+  
+  <!-- Decorators -->
+  <rect x="920" y="325" width="150" height="30" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="995" y="345" text-anchor="middle" fill="#e2e8f0" font-size="10">Decorators</text>
+  
+  <!-- Type Checking -->
+  <text x="580" y="380" fill="#8b5cf6" font-size="14" font-weight="bold">Type Checking Benefits:</text>
+  <text x="580" y="400" fill="#cbd5e1" font-size="10">• Compile-time error detection</text>
+  <text x="580" y="415" fill="#cbd5e1" font-size="10">• IntelliSense and autocompletion</text>
+  <text x="580" y="430" fill="#cbd5e1" font-size="10">• Refactoring safety and code navigation</text>
+  
+  <!-- Compilation Pipeline -->
+  <rect x="1100" y="90" width="480" height="350" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="1100" y="90" width="480" height="50" fill="url(#compileGrad)" rx="10 10 0 0"/>
+  <text x="1340" y="125" text-anchor="middle" fill="white" font-size="20" font-weight="bold">Compilation Pipeline</text>
+  
+  <!-- TypeScript Compiler -->
+  <text x="1120" y="165" fill="#ef4444" font-size="16" font-weight="bold">TypeScript Compiler (tsc)</text>
+  <rect x="1120" y="175" width="440" height="80" fill="#2d3748" stroke="#ef4444" stroke-width="2" rx="6"/>
+  <text x="1130" y="195" fill="#e2e8f0" font-size="11" font-weight="bold">Compilation Process:</text>
+  <text x="1130" y="210" fill="#cbd5e1" font-size="10">1. Parse TypeScript source files (.ts, .tsx)</text>
+  <text x="1130" y="225" fill="#cbd5e1" font-size="10">2. Type checking and validation</text>
+  <text x="1130" y="240" fill="#cbd5e1" font-size="10">3. Type erasure - remove type annotations</text>
+  <text x="1130" y="250" fill="#cbd5e1" font-size="10">4. Emit JavaScript code (.js, .d.ts)</text>
+  
+  <!-- Compiler Options -->
+  <text x="1120" y="280" fill="#ef4444" font-size="14" font-weight="bold">Compiler Configuration:</text>
+  <rect x="1120" y="290" width="200" height="60" fill="#2d3748" stroke="#ef4444" stroke-width="1" rx="4"/>
+  <text x="1130" y="310" fill="#cbd5e1" font-size="10">Target: ES5, ES2015, ES2020...</text>
+  <text x="1130" y="325" fill="#cbd5e1" font-size="10">Module: CommonJS, ES6, AMD</text>
+  <text x="1130" y="340" fill="#cbd5e1" font-size="10">Strict mode, Source maps</text>
+  
+  <!-- Output -->
+  <rect x="1340" y="290" width="220" height="60" fill="#2d3748" stroke="#ef4444" stroke-width="1" rx="4"/>
+  <text x="1350" y="310" fill="#e2e8f0" font-size="11" font-weight="bold">Output Files:</text>
+  <text x="1350" y="325" fill="#cbd5e1" font-size="10">• .js - Compiled JavaScript</text>
+  <text x="1350" y="340" fill="#cbd5e1" font-size="10">• .d.ts - Type declarations</text>
+  
+  <!-- Build Tools -->
+  <text x="1120" y="375" fill="#ef4444" font-size="14" font-weight="bold">Build Tool Integration:</text>
+  <rect x="1120" y="385" width="80" height="20" fill="#646cff" rx="3"/>
+  <text x="1160" y="398" text-anchor="middle" fill="white" font-size="8">Vite</text>
+  
+  <rect x="1210" y="385" width="80" height="20" fill="#8dd6f9" rx="3"/>
+  <text x="1250" y="398" text-anchor="middle" fill="black" font-size="8">Webpack</text>
+  
+  <rect x="1300" y="385" width="80" height="20" fill="#db4c40" rx="3"/>
+  <text x="1340" y="398" text-anchor="middle" fill="white" font-size="8">Rollup</text>
+  
+  <rect x="1390" y="385" width="80" height="20" fill="#f7931e" rx="3"/>
+  <text x="1430" y="398" text-anchor="middle" fill="white" font-size="8">Parcel</text>
+  
+  <rect x="1480" y="385" width="80" height="20" fill="#61dafb" rx="3"/>
+  <text x="1520" y="398" text-anchor="middle" fill="black" font-size="8">Create React App</text>
+  
+  <!-- JavaScript Output -->
+  <rect x="20" y="460" width="760" height="280" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="20" y="460" width="760" height="50" fill="url(#runtimeGrad)" rx="10 10 0 0"/>
+  <text x="400" y="495" text-anchor="middle" fill="white" font-size="20" font-weight="bold">JavaScript Output and Runtime</text>
+  
+  <!-- Generated JavaScript -->
+  <text x="40" y="535" fill="#10b981" font-size="16" font-weight="bold">Generated JavaScript Code</text>
+  <rect x="40" y="545" width="350" height="120" fill="#2d3748" stroke="#10b981" stroke-width="2" rx="6"/>
+  <text x="50" y="565" fill="#e2e8f0" font-size="12" font-family="monospace">// Types are erased in output</text>
+  <text x="50" y="580" fill="#e2e8f0" font-size="12" font-family="monospace">const user = { id: 1, name: "John" };</text>
+  <text x="50" y="595" fill="#e2e8f0" font-size="12" font-family="monospace"></text>
+  <text x="50" y="610" fill="#e2e8f0" font-size="12" font-family="monospace">// Runtime behavior identical</text>
+  <text x="50" y="625" fill="#e2e8f0" font-size="12" font-family="monospace">// to standard JavaScript</text>
+  <text x="50" y="640" fill="#e2e8f0" font-size="12" font-family="monospace">console.log(user.name);</text>
+  <text x="50" y="655" fill="#e2e8f0" font-size="12" font-family="monospace">// "John"</text>
+  
+  <!-- Type Declarations -->
+  <text x="410" y="535" fill="#10b981" font-size="16" font-weight="bold">Type Declaration Files</text>
+  <rect x="410" y="545" width="350" height="120" fill="#2d3748" stroke="#10b981" stroke-width="2" rx="6"/>
+  <text x="420" y="565" fill="#e2e8f0" font-size="12" font-family="monospace">// user.d.ts</text>
+  <text x="420" y="580" fill="#e2e8f0" font-size="12" font-family="monospace">interface User {</text>
+  <text x="420" y="595" fill="#e2e8f0" font-size="12" font-family="monospace">  id: number;</text>
+  <text x="420" y="610" fill="#e2e8f0" font-size="12" font-family="monospace">  name: string;</text>
+  <text x="420" y="625" fill="#e2e8f0" font-size="12" font-family="monospace">  email?: string;</text>
+  <text x="420" y="640" fill="#e2e8f0" font-size="12" font-family="monospace">}</text>
+  <text x="420" y="655" fill="#e2e8f0" font-size="12" font-family="monospace">export { User };</text>
+  
+  <!-- Runtime Environments -->
+  <text x="40" y="695" fill="#10b981" font-size="14" font-weight="bold">Runtime Environments:</text>
+  <rect x="40" y="705" width="120" height="25" fill="#f7931e" rx="4"/>
+  <text x="100" y="722" text-anchor="middle" fill="white" font-size="10">Browser</text>
+  
+  <rect x="170" y="705" width="120" height="25" fill="#68a063" rx="4"/>
+  <text x="230" y="722" text-anchor="middle" fill="white" font-size="10">Node.js</text>
+  
+  <rect x="300" y="705" width="120" height="25" fill="#61dafb" rx="4"/>
+  <text x="360" y="722" text-anchor="middle" fill="black" font-size="10">React Native</text>
+  
+  <rect x="430" y="705" width="120" height="25" fill="#3776ab" rx="4"/>
+  <text x="490" y="722" text-anchor="middle" fill="white" font-size="10">Electron</text>
+  
+  <rect x="560" y="705" width="120" height="25" fill="#000" rx="4"/>
+  <text x="620" y="722" text-anchor="middle" fill="white" font-size="10">Deno</text>
+  
+  <!-- Runtime Features -->
+  <text x="40" y="750" fill="#cbd5e1" font-size="12" font-weight="bold">Runtime Characteristics:</text>
+  <text x="40" y="770" fill="#e2e8f0" font-size="10">• No type checking at runtime (types erased)</text>
+  <text x="40" y="785" fill="#e2e8f0" font-size="10">• Standard JavaScript execution</text>
+  <text x="40" y="800" fill="#e2e8f0" font-size="10">• Compatible with existing JS libraries</text>
+  <text x="40" y="815" fill="#e2e8f0" font-size="10">• Source maps for debugging</text>
+  
+  <!-- Ecosystem -->
+  <rect x="800" y="460" width="780" height="280" fill="#1e293b" stroke="#334155" stroke-width="3" rx="10"/>
+  <rect x="800" y="460" width="780" height="50" fill="url(#toolsGrad)" rx="10 10 0 0"/>
+  <text x="1190" y="495" text-anchor="middle" fill="white" font-size="20" font-weight="bold">TypeScript Ecosystem</text>
+  
+  <!-- Framework Integration -->
+  <text x="820" y="535" fill="#f59e0b" font-size="14" font-weight="bold">Framework Integration:</text>
+  
+  <!-- Frontend Frameworks -->
+  <text x="820" y="555" fill="#cbd5e1" font-size="12" font-weight="bold">Frontend:</text>
+  <rect x="820" y="565" width="80" height="20" fill="#61dafb" rx="3"/>
+  <text x="860" y="578" text-anchor="middle" fill="black" font-size="8">React</text>
+  
+  <rect x="910" y="565" width="80" height="20" fill="#4fc08d" rx="3"/>
+  <text x="950" y="578" text-anchor="middle" fill="white" font-size="8">Vue.js</text>
+  
+  <rect x="1000" y="565" width="80" height="20" fill="#dd0031" rx="3"/>
+  <text x="1040" y="578" text-anchor="middle" fill="white" font-size="8">Angular</text>
+  
+  <rect x="1090" y="565" width="80" height="20" fill="#ff3e00" rx="3"/>
+  <text x="1130" y="578" text-anchor="middle" fill="white" font-size="8">Svelte</text>
+  
+  <!-- Backend Frameworks -->
+  <text x="820" y="605" fill="#cbd5e1" font-size="12" font-weight="bold">Backend:</text>
+  <rect x="820" y="615" width="80" height="20" fill="#68a063" rx="3"/>
+  <text x="860" y="628" text-anchor="middle" fill="white" font-size="8">Node.js</text>
+  
+  <rect x="910" y="615" width="80" height="20" fill="#000" rx="3"/>
+  <text x="950" y="628" text-anchor="middle" fill="white" font-size="8">Express</text>
+  
+  <rect x="1000" y="615" width="80" height="20" fill="#ed234b" rx="3"/>
+  <text x="1040" y="628" text-anchor="middle" fill="white" font-size="8">NestJS</text>
+  
+  <rect x="1090" y="615" width="80" height="20" fill="#000" rx="3"/>
+  <text x="1130" y="628" text-anchor="middle" fill="white" font-size="8">Fastify</text>
+  
+  <!-- Testing Tools -->
+  <text x="1200" y="555" fill="#cbd5e1" font-size="12" font-weight="bold">Testing:</text>
+  <rect x="1200" y="565" width="80" height="20" fill="#c21325" rx="3"/>
+  <text x="1240" y="578" text-anchor="middle" fill="white" font-size="8">Jest</text>
+  
+  <rect x="1290" y="565" width="80" height="20" fill="#69d3a7" rx="3"/>
+  <text x="1330" y="578" text-anchor="middle" fill="white" font-size="8">Vitest</text>
+  
+  <rect x="1380" y="565" width="80" height="20" fill="#17202c" rx="3"/>
+  <text x="1420" y="578" text-anchor="middle" fill="white" font-size="8">Cypress</text>
+  
+  <rect x="1470" y="565" width="80" height="20" fill="#e2e2e2" rx="3"/>
+  <text x="1510" y="578" text-anchor="middle" fill="black" font-size="8">Playwright</text>
+  
+  <!-- Linting Tools -->
+  <text x="1200" y="605" fill="#cbd5e1" font-size="12" font-weight="bold">Code Quality:</text>
+  <rect x="1200" y="615" width="80" height="20" fill="#4b32c3" rx="3"/>
+  <text x="1240" y="628" text-anchor="middle" fill="white" font-size="8">ESLint</text>
+  
+  <rect x="1290" y="615" width="80" height="20" fill="#f7b93e" rx="3"/>
+  <text x="1330" y="628" text-anchor="middle" fill="white" font-size="8">Prettier</text>
+  
+  <rect x="1380" y="615" width="80" height="20" fill="#3178c6" rx="3"/>
+  <text x="1420" y="628" text-anchor="middle" fill="white" font-size="8">TSLint</text>
+  
+  <!-- Package Management -->
+  <text x="820" y="655" fill="#f59e0b" font-size="14" font-weight="bold">Package Management:</text>
+  <rect x="820" y="665" width="80" height="20" fill="#cb3837" rx="3"/>
+  <text x="860" y="678" text-anchor="middle" fill="white" font-size="8">npm</text>
+  
+  <rect x="910" y="665" width="80" height="20" fill="#2188ff" rx="3"/>
+  <text x="950" y="678" text-anchor="middle" fill="white" font-size="8">yarn</text>
+  
+  <rect x="1000" y="665" width="80" height="20" fill="#f69220" rx="3"/>
+  <text x="1040" y="678" text-anchor="middle" fill="white" font-size="8">pnpm</text>
+  
+  <!-- Type Libraries -->
+  <text x="1200" y="655" fill="#f59e0b" font-size="14" font-weight="bold">Type Libraries:</text>
+  <rect x="1200" y="665" width="140" height="20" fill="#3178c6" rx="3"/>
+  <text x="1270" y="678" text-anchor="middle" fill="white" font-size="8">@types/node</text>
+  
+  <rect x="1350" y="665" width="140" height="20" fill="#3178c6" rx="3"/>
+  <text x="1420" y="678" text-anchor="middle" fill="white" font-size="8">@types/react</text>
+  
+  <rect x="1500" y="665" width="80" height="20" fill="#3178c6" rx="3"/>
+  <text x="1540" y="678" text-anchor="middle" fill="white" font-size="8">DefinitelyTyped</text>
+  
+  <!-- Development Benefits -->
+  <text x="820" y="705" fill="#f59e0b" font-size="14" font-weight="bold">Development Benefits:</text>
+  <text x="820" y="725" fill="#cbd5e1" font-size="10">• Enhanced IDE support with IntelliSense</text>
+  <text x="1200" y="725" fill="#cbd5e1" font-size="10">• Early error detection</text>
+  <text x="820" y="740" fill="#cbd5e1" font-size="10">• Better refactoring and code navigation</text>
+  <text x="1200" y="740" fill="#cbd5e1" font-size="10">• Self-documenting code</text>
+  
+  <!-- Development Workflow -->
+  <rect x="20" y="760" width="1560" height="200" fill="#1e293b" stroke="#374151" stroke-width="2" rx="8"/>
+  <text x="800" y="795" text-anchor="middle" fill="#f3f4f6" font-size="20" font-weight="bold">TypeScript Development Workflow</text>
+  
+  <!-- Workflow Steps -->
+  <text x="40" y="830" fill="#10b981" font-size="14" font-weight="bold">1. Development</text>
+  <rect x="40" y="840" width="200" height="40" fill="#2d3748" stroke="#10b981" stroke-width="1" rx="4"/>
+  <text x="140" y="865" text-anchor="middle" fill="#e5e7eb" font-size="11">Write TypeScript Code</text>
+  
+  <text x="280" y="830" fill="#3178c6" font-size="14" font-weight="bold">2. Type Checking</text>
+  <rect x="280" y="840" width="200" height="40" fill="#2d3748" stroke="#3178c6" stroke-width="1" rx="4"/>
+  <text x="380" y="865" text-anchor="middle" fill="#e5e7eb" font-size="11">tsc --noEmit</text>
+  
+  <text x="520" y="830" fill="#f59e0b" font-size="14" font-weight="bold">3. Compilation</text>
+  <rect x="520" y="840" width="200" height="40" fill="#2d3748" stroke="#f59e0b" stroke-width="1" rx="4"/>
+  <text x="620" y="865" text-anchor="middle" fill="#e5e7eb" font-size="11">tsc or Build Tool</text>
+  
+  <text x="760" y="830" fill="#10b981" font-size="14" font-weight="bold">4. Testing</text>
+  <rect x="760" y="840" width="200" height="40" fill="#2d3748" stroke="#10b981" stroke-width="1" rx="4"/>
+  <text x="860" y="865" text-anchor="middle" fill="#e5e7eb" font-size="11">Jest / Vitest</text>
+  
+  <text x="1000" y="830" fill="#ef4444" font-size="14" font-weight="bold">5. Linting</text>
+  <rect x="1000" y="840" width="200" height="40" fill="#2d3748" stroke="#ef4444" stroke-width="1" rx="4"/>
+  <text x="1100" y="865" text-anchor="middle" fill="#e5e7eb" font-size="11">ESLint + Prettier</text>
+  
+  <text x="1240" y="830" fill="#8b5cf6" font-size="14" font-weight="bold">6. Deployment</text>
+  <rect x="1240" y="840" width="200" height="40" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="1340" y="865" text-anchor="middle" fill="#e5e7eb" font-size="11">JavaScript Output</text>
+  
+  <!-- Commands -->
+  <text x="40" y="905" fill="#e2e8f0" font-size="12" font-weight="bold">Common Commands:</text>
+  <text x="40" y="920" fill="#cbd5e1" font-size="10" font-family="monospace">tsc --init                 # Initialize TypeScript project</text>
+  <text x="40" y="935" fill="#cbd5e1" font-size="10" font-family="monospace">tsc --watch               # Watch mode compilation</text>
+  <text x="40" y="950" fill="#cbd5e1" font-size="10" font-family="monospace">tsc --noEmit              # Type checking only</text>
+  
+  <text x="500" y="905" fill="#e2e8f0" font-size="12" font-weight="bold">Build Integration:</text>
+  <text x="500" y="920" fill="#cbd5e1" font-size="10" font-family="monospace">vite build                # Vite with TypeScript</text>
+  <text x="500" y="935" fill="#cbd5e1" font-size="10" font-family="monospace">webpack build             # Webpack with ts-loader</text>
+  <text x="500" y="950" fill="#cbd5e1" font-size="10" font-family="monospace">npm run build             # Package.json script</text>
+  
+  <!-- Configuration -->
+  <rect x="20" y="980" width="1560" height="180" fill="#1e293b" stroke="#374151" stroke-width="2" rx="8"/>
+  <text x="800" y="1015" text-anchor="middle" fill="#f3f4f6" font-size="20" font-weight="bold">TypeScript Configuration Examples</text>
+  
+  <!-- tsconfig.json -->
+  <text x="40" y="1050" fill="#3178c6" font-size="14" font-weight="bold">tsconfig.json Example:</text>
+  <rect x="40" y="1060" width="480" height="80" fill="#2d3748" stroke="#3178c6" stroke-width="1" rx="4"/>
+  <text x="50" y="1080" fill="#e2e8f0" font-size="10" font-family="monospace">{</text>
+  <text x="50" y="1095" fill="#e2e8f0" font-size="10" font-family="monospace">  "compilerOptions": {</text>
+  <text x="50" y="1110" fill="#e2e8f0" font-size="10" font-family="monospace">    "target": "ES2020", "module": "ESNext",</text>
+  <text x="50" y="1125" fill="#e2e8f0" font-size="10" font-family="monospace">    "strict": true, "esModuleInterop": true</text>
+  <text x="50" y="1135" fill="#e2e8f0" font-size="10" font-family="monospace">  }</text>
+  
+  <!-- Package.json -->
+  <text x="560" y="1050" fill="#10b981" font-size="14" font-weight="bold">package.json Scripts:</text>
+  <rect x="560" y="1060" width="480" height="80" fill="#2d3748" stroke="#10b981" stroke-width="1" rx="4"/>
+  <text x="570" y="1080" fill="#e2e8f0" font-size="10" font-family="monospace">{</text>
+  <text x="570" y="1095" fill="#e2e8f0" font-size="10" font-family="monospace">  "scripts": {</text>
+  <text x="570" y="1110" fill="#e2e8f0" font-size="10" font-family="monospace">    "build": "tsc", "dev": "tsc --watch",</text>
+  <text x="570" y="1125" fill="#e2e8f0" font-size="10" font-family="monospace">    "type-check": "tsc --noEmit"</text>
+  <text x="570" y="1135" fill="#e2e8f0" font-size="10" font-family="monospace">  }</text>
+  
+  <!-- Type Declaration -->
+  <text x="1080" y="1050" fill="#8b5cf6" font-size="14" font-weight="bold">Type Declaration Example:</text>
+  <rect x="1080" y="1060" width="480" height="80" fill="#2d3748" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+  <text x="1090" y="1080" fill="#e2e8f0" font-size="10" font-family="monospace">interface APIResponse&lt;T&gt; {</text>
+  <text x="1090" y="1095" fill="#e2e8f0" font-size="10" font-family="monospace">  data: T; success: boolean;</text>
+  <text x="1090" y="1110" fill="#e2e8f0" font-size="10" font-family="monospace">  message?: string;</text>
+  <text x="1090" y="1125" fill="#e2e8f0" font-size="10" font-family="monospace">}</text>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- Arrows showing relationships -->
+  <line x1="540" y1="265" x2="580" y2="265" stroke="#10b981" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1080" y1="265" x2="1120" y2="265" stroke="#10b981" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="820" y1="440" x2="820" y2="460" stroke="#10b981" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1340" y1="440" x2="1340" y2="460" stroke="#10b981" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Summary -->
+  <rect x="20" y="1180" width="1560" height="200" fill="#1a202c" stroke="#2d3748" stroke-width="2" rx="8"/>
+  <text x="800" y="1210" text-anchor="middle" fill="#3178c6" font-size="18" font-weight="bold">TypeScript Architecture Summary</text>
+  
+  <text x="40" y="1240" fill="#e2e8f0" font-size="12" font-weight="bold">Development Flow:</text>
+  <text x="40" y="1255" fill="#cbd5e1" font-size="10">TypeScript Code → Type Checking → Compilation → JavaScript → Runtime Execution</text>
+  
+  <text x="40" y="1280" fill="#e2e8f0" font-size="12" font-weight="bold">Key Benefits:</text>
+  <text x="40" y="1295" fill="#cbd5e1" font-size="10">• Static type checking catches errors at compile time</text>
+  <text x="40" y="1310" fill="#cbd5e1" font-size="10">• Enhanced developer experience with IntelliSense and refactoring</text>
+  <text x="40" y="1325" fill="#cbd5e1" font-size="10">• Seamless JavaScript interoperability and ecosystem compatibility</text>
+  
+  <text x="800" y="1280" fill="#e2e8f0" font-size="12" font-weight="bold">Architecture Layers:</text>
+  <text x="800" y="1295" fill="#cbd5e1" font-size="10">1. Development Environment (Editors, Tools, Configuration)</text>
+  <text x="800" y="1310" fill="#cbd5e1" font-size="10">2. Type System (Static Analysis, Type Checking, Inference)</text>
+  <text x="800" y="1325" fill="#cbd5e1" font-size="10">3. Compilation Pipeline (TypeScript Compiler, Build Tools)</text>
+  <text x="800" y="1340" fill="#cbd5e1" font-size="10">4. Runtime Environment (Standard JavaScript Execution)</text>
+  <text x="800" y="1355" fill="#cbd5e1" font-size="10">5. Ecosystem Integration (Frameworks, Libraries, Tooling)</text>
+</svg>
